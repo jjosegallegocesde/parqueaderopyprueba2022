@@ -1,0 +1,20 @@
+.banner{
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/juegolunes.appspot.com/o/banner.jpg?alt=media&token=807b922d-cde8-470e-951f-97cfdc84c677');
+    background-position: top center;
+    background-size: cover;
+    padding: 10% 2% 35% 2%;
+    position:relative;
+    z-index:1;
+}
+
+.banner::after{
+    content:'';
+    background-color: black;
+    opacity: 0.4;
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    top:0;
+    left:0;
+    z-index:-1;
+}
